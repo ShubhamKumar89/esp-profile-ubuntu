@@ -73,9 +73,9 @@ git_repos:
     # git_branch will default to master if left blank
     git_branch: master
     # git_username is optional
-    git_username: ${{secrets.GIT_USERNAME}}
+    git_username: ""
     # git_passowrd_or_token is optional
-    git_passowrd_or_token: ${{secrets.GIT_TOKEN}}
+    git_passowrd_or_token: ""
     # custom_git_arguments will default to "--depth=1" if left blank
     custom_git_arguments: --depth=1
     # mirror_repo_name will default to repo name if left blank. The only characters allowed are a-z, A-Z, 0-9, - and _
