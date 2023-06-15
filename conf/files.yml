@@ -58,8 +58,8 @@ private_docker_aws_images:
 # These files are retrieved from a Docker registry.
 # Currently these files can go anywhere.
 private_docker_registry_images:
-  - image: esp:${{ steps.date.outputs.date }}
-    tag: ${{secrets.DOCKER_USERNAME}}/esp:${{ steps.date.outputs.date }}
+  - image: esp:latest
+    tag: ${{secrets.DOCKER_USERNAME}}/esp:latest
     destination_file: esp.tar.gz
     docker_registry: hub.docker.com
     docker_username: ${{secrets.DOCKER_USERNAME}}
