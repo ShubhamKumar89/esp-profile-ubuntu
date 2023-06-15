@@ -58,12 +58,12 @@ private_docker_aws_images:
 # These files are retrieved from a Docker registry.
 # Currently these files can go anywhere.
 private_docker_registry_images:
-  - image: esp:latest
-    tag: ${{secrets.DOCKER_USERNAME}}/esp:latest
-    destination_file: esp.tar.gz
-    docker_registry: hub.docker.com
-    docker_username: ${{secrets.DOCKER_USERNAME}}
-    docker_password: ${{secrets.DOCKER_PASSWORD}}
+  - image: ""
+    tag: ""
+    destination_file: ""
+    docker_registry: ""
+    docker_username: ""
+    docker_password: ""
 
 # Items in 'git_repos' will be retrieved using git.
 # These files will be accessible at http://mirror:mirror@{RNI_IP}:3003/mirror/{PROFILE_NAME}___{REPO_NAME}/raw/branch/master/*
