@@ -71,7 +71,7 @@ private_docker_registry_images:
 git_repos:
   - git_url: 
     # git_branch will default to master if left blank
-    git_branch: master
+    git_branch: 
     # git_username is optional
     git_username: 
     # git_passowrd_or_token is optional
