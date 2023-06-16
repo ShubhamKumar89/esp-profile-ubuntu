@@ -85,10 +85,10 @@ git_repos:
 # Example URL with below values: http://192.168.1.10/files/Clear-Linux___rni/build/*
 build:
   # Identify the container to run the build process in
-  - container: ubuntu:20.04
+  - container: 
     # Entrypoint of override, this is optional
     entrypoint: 
     # Interrupter to use for execution
-    cmd: sh -c
+    cmd: 
     # Script to run from the /build/ folder
-    execute: start.sh
+    execute: 
